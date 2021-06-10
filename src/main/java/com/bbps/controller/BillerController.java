@@ -21,6 +21,7 @@ public class BillerController {
 
 	@GetMapping("/getBillers")
 	public Biller getBiller(@RequestParam("agentID") String agentId) {
+		logger.debug(">>> getBiller");
 		logger.debug("agentId >>{}",agentId);
 		return billerService.getBiller(agentId);
 	}
