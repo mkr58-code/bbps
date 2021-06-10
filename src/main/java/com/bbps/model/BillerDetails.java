@@ -11,7 +11,7 @@ public class BillerDetails {
 	private int blrCatId;
 	private int billAcceptanceType;
 	private String paymentAmtExactness;
-
+	/** setter / getter*/
 	public String getBlrName() {
 		return blrName;
 	}
