@@ -45,12 +45,5 @@
         </plugins>
     </build>
          
-   <distributionManagement>
-    <repository>
-        <id>MaheshJar</id>
-        <name>MaheshJarTest</name>
-        <url>https://drive.google.com/drive/my-drive</url>
-    </repository>
-</distributionManagement> 
                   
 </project>
