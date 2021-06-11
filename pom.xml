@@ -45,12 +45,12 @@
         </plugins>
     </build>
          
-   <repositories>
+   <distributionManagement>
     <repository>
-      <id>my-repo1</id>
-      <name>your custom repo</name>
-      <url>https://drive.google.com/drive/my-drive</url>
+        <id>MaheshJar</id>
+        <name>MaheshJarTest</name>
+        <url>https://drive.google.com/drive/my-drive</url>
     </repository>
-    </repositories>
+</distributionManagement> 
                   
 </project>
