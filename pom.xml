@@ -45,5 +45,12 @@
         </plugins>
     </build>
          
+<distributionManagement>
+    <repository>
+	<id>MaheshJar</id>
+             <name>MaheshJarTest</name>
+             <url>https://repo1.maven.org/maven2/</url>
+   </repository>
+</distributionManagement> 
                   
 </project>
